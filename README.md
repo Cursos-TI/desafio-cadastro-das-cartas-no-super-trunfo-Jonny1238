@@ -14,8 +14,8 @@ No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo
 
 🚩 **Objetivo:** Criar um programa em C que cadastra **duas** cartas com os seguintes atributos:
 
-*   População (`int`)
-*   Área (`float`)
+*   População  (`int`)
+*  Área (`float`)
 *   PIB (`float`)
 *   Número de pontos turísticos (`int`)
 
