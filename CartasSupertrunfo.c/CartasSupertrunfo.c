@@ -1,23 +1,21 @@
-#include<stdio.h>
+#include <stdio.h> // Para funções de entrada e saída (printf, scanf)
+#include <stdlib.h> // Para system("pause") - opcional
 
-int main(){
-    //("carta super trunfo brasil")
-    int População1 = 211000000;
-    float  Area1 = 8.510000;
-    float Pib1 = 11.700000000000;
-    int Pontosturisticos1 = 70;
-    char Pais1[20] = "brasil";
+// Define a estrutura para representar uma carta
+// (Vamos chamar de Local, já que a descrição mencionou "cidade" também)
+struct CartaTrunfo {
+    int populacao;
+    float area; // Em km²
+    float pib;  // Em alguma unidade monetária (ex: bilhões de USD)
+    int pontos_turisticos;
+    // Poderíamos adicionar um nome: char nome[50]; mas não foi pedido.
+};
 
-    //("carta super trunfo EUA")
-    int População2 = 340.000000;
-    float  Area2 = 9.867000;
-    float Pib2 = 27.000000000000;
-    int Pontosturisticos2 = 230;
-    char Pais2 [30] = "United States of America";
+int main() {
 
-    //
-
-
+    // Declara as duas variáveis do tipo da estrutura para armazenar os dados
+    struct CartaTrunfo carta1;
+    struct CartaTrunfo carta2;
 
 
 
@@ -25,4 +23,6 @@ int main(){
 
 
 
-}
+
+
+
