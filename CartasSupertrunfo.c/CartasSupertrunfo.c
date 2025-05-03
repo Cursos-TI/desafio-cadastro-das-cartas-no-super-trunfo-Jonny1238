@@ -17,7 +17,17 @@ int main() {
     struct CartaTrunfo carta1;
     struct CartaTrunfo carta2;
 
+  // --- Cadastro da Carta 1 ---
+  printf("--- Cadastro da Carta 1 ---\n");
 
+  printf("Digite a Populacao da Carta 1: ");
+  scanf("%d", &carta1.populacao); // Lê um inteiro e armazena em carta1.populacao
+
+  printf("Digite a Area (em km²) da Carta 1: ");
+  scanf("%f", &carta1.area); // Lê um float e armazena em carta1.area
+
+  printf("Digite o PIB (ex: 1900.5 para 1.9 trilhoes) da Carta 1: ");
+  scanf("%f", &carta1.pib); // Lê um float e armazena em carta1.pib
 
 
 
